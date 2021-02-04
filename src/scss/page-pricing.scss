@@ -1,0 +1,47 @@
+.pricing-item {
+  width: 100%;
+  padding: 15px 1.5rem 64px;
+  border-radius: 1rem;
+
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-free {
+  background-image: url(../images/subscribe_1.png);
+}
+
+.bg-standard {
+  background-image: url(../images/subscribe_2.png);
+}
+
+.bg-premium {
+  background-image: url(../images/subscribe_3.png);
+}
+
+.pricing-value {
+  margin-top: 183px;
+  margin-bottom: 25px;
+  margin-left: -16px;
+
+  font-size: var(--font-size-7);
+}
+
+.pricing-value::after {
+  position: relative;
+  top: -19px;
+  left: 16px;
+
+  font-size: var(--font-size-3);
+  text-transform: uppercase;
+
+  content: 'руб.';
+}
+
+.pricing-footer {
+  margin-top: 64px;
+  margin-bottom: 0;
+
+  color: var(--white);
+  font-size: var(--font-small);
+}
