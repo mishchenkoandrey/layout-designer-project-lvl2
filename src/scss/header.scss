@@ -1,0 +1,13 @@
+.logo {
+  width: 24px;
+}
+
+@media (min-width: 1240px) {
+  .nav-ul {
+    gap: 24px;
+  }
+
+  .search {
+    width: 248px;
+  }
+}

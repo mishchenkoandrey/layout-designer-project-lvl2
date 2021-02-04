@@ -1,0 +1,32 @@
+.page-description {
+  background-image: url('../images/banner.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.registration-form {
+  gap: 24px;
+  max-width: 570px;
+}
+
+.registration-input {
+  width: 100%;
+
+  padding: 15px 20px;
+
+  color: var(--white);
+  font-size: 14px;
+  line-height: 16px;
+
+  background-color: transparent;
+}
+
+.registration-input::placeholder {
+  color: var(--white);
+}
+
+@media (min-width: 1240px) {
+  .registration-input {
+    width: calc(50% - 12px);
+  }
+}
