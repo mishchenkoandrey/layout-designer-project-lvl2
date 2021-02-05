@@ -151,6 +151,10 @@ nav a:hover {
   margin-bottom: 49px;
 }
 
+.mb-64 {
+  margin-bottom: 64px;
+}
+
 .border-0 {
   border: 0;
 }
@@ -224,6 +228,10 @@ nav a:hover {
   font-weight: bold;
 }
 
+.weight-normal {
+  font-weight: normal;
+}
+
 .font-xs {
   font-size: var(--font-xs);
   line-height: 13px;
@@ -290,6 +298,16 @@ nav a:hover {
   font-size: var(--font-size-1);
 }
 
+.btn-small {
+  display: inline-block;
+  width: auto;
+  padding: 17px 30px;
+  border: 1px solid var(--dark-gray);
+
+  color: var(--dark-gray);
+  font-size: var(--font-small);
+}
+
 @media (min-width: 1240px) {
   h1 {
     font-size: 60px;
@@ -325,6 +343,10 @@ nav a:hover {
 
   .mr-88-xl {
     margin-right: 88px;
+  }
+
+  .mb-82-xl {
+    margin-bottom: 82px;
   }
 
   .ml-auto-xl {
