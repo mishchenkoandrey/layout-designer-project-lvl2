@@ -77,6 +77,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-size: var(--font-size-1);
+}
+
 nav ul {
   padding-inline-start: 0;
 
@@ -155,6 +159,10 @@ nav a:hover {
   margin-bottom: 64px;
 }
 
+.mb-65 {
+  margin-bottom: 65px;
+}
+
 .border-0 {
   border: 0;
 }
@@ -189,6 +197,10 @@ nav a:hover {
 
 .pb-5 {
   padding-bottom: 5px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
 }
 
 .pb-200 {
@@ -306,6 +318,17 @@ nav a:hover {
 
   color: var(--dark-gray);
   font-size: var(--font-small);
+}
+
+.btn-orange {
+  padding: 19px 41px;
+  border: 0;
+  border-radius: 2rem;
+
+  font-size: var(--font-small);
+  text-transform: none;
+
+  background-color: var(--red);
 }
 
 @media (min-width: 1240px) {
