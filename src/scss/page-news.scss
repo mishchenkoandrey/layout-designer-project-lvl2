@@ -5,8 +5,6 @@
 
 .news-text {
   margin: 16px 0 23px;
-
-  font-size: var(--font-size-1);
 }
 
 .news-author {
@@ -22,6 +20,7 @@
   margin-right: 16px;
 
   color: var(--orange);
+  text-transform: uppercase;
 }
 
 @media (min-width: 1240px) {

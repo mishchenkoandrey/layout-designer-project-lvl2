@@ -1,0 +1,57 @@
+.footer-nav {
+  margin-bottom: 30px;
+}
+
+.footer-nav-li {
+  width: 100%;
+
+  font-size: 16px;
+}
+
+.footer-nav-link {
+  display: block;
+
+  font-size: var(--font-size-1);
+}
+
+.share-link {
+  display: block;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.google {
+  width: 26px;
+  height: 17px;
+
+  background-image: url(../images/Google+.png);
+}
+
+.twitter {
+  width: 22px;
+  height: 19px;
+
+  background-image: url(../images/Twitter.png);
+}
+
+.facebook {
+  width: 12px;
+  height: 20px;
+
+  background-image: url(../images/Facebook.png);
+}
+
+.instagram {
+  width: 19px;
+  height: 20px;
+
+  background-image: url(../images/Instagram.png);
+}
+
+@media (min-width: 1240px) {
+  .footer-nav-li {
+    width: auto;
+  }
+}
