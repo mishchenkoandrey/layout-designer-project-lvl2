@@ -159,6 +159,10 @@ nav a:hover {
   margin-bottom: 18px;
 }
 
+.mb-24 {
+  margin-bottom: 24px;
+}
+
 .mb-49 {
   margin-bottom: 49px;
 }
@@ -203,6 +207,10 @@ nav a:hover {
   padding-top: 100px;
 }
 
+.pt-225 {
+  padding-top: 225px;
+}
+
 .pt-248 {
   padding-top: 248px;
 }
@@ -233,6 +241,10 @@ nav a:hover {
 
 .pb-200 {
   padding-bottom: 200px;
+}
+
+.pb-224 {
+  padding-bottom: 224px;
 }
 
 .pl-10 {
@@ -319,13 +331,13 @@ nav a:hover {
 }
 
 .btn {
-  margin-right: auto;
-  margin-left: auto;
   padding-top: 21px;
   padding-bottom: 21px;
   border-radius: 5px;
 
   color: var(--white);
+  font-size: 13.3px;
+  line-height: 15px;
   text-transform: uppercase;
 
   background-color: transparent;
@@ -333,9 +345,6 @@ nav a:hover {
 }
 
 .btn-green {
-  font-size: 13.3px;
-  line-height: 15px;
-
   background-color: var(--green);
 }
 
@@ -369,6 +378,21 @@ nav a:hover {
   text-transform: none;
 
   background-color: var(--red);
+}
+
+.btn-purple {
+  background-color: var(--purple);
+}
+
+.btn-red {
+  background-color: var(--red);
+}
+
+.clear::after {
+  display: table;
+  clear: both;
+
+  content: '';
 }
 
 @media (min-width: 1240px) {
@@ -412,6 +436,10 @@ nav a:hover {
     margin-top: 32px;
   }
 
+  .mr-24-xl {
+    margin-right: 24px;
+  }
+
   .mr-88-xl {
     margin-right: 88px;
   }
@@ -428,8 +456,16 @@ nav a:hover {
     padding-top: 200px;
   }
 
+  .pt-250-xl {
+    padding-top: 250px;
+  }
+
   .pb-72-xl {
     padding-bottom: 72px;
+  }
+
+  .pb-200-xl {
+    padding-bottom: 200px;
   }
 
   .width-auto-xl {
@@ -449,5 +485,9 @@ nav a:hover {
     margin: 0 auto;
     padding-right: 0;
     padding-left: 0;
+  }
+
+  .btn-icon {
+    float: left;
   }
 }

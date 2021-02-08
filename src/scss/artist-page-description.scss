@@ -1,0 +1,25 @@
+.artist-page-description {
+  background-image: url('../images/Morten\ Harket.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.btn-icon {
+  display: block;
+  min-width: 200px;
+  padding: 24px 5px 24px 67px;
+
+  text-align: left;
+
+  background-repeat: no-repeat;
+  background-position: 31px 50%;
+  background-size: 20px;
+}
+
+.btn-play {
+  background-image: url('../images/play-button.svg');
+}
+
+.btn-like {
+  background-image: url('../images/heart.svg');
+}
