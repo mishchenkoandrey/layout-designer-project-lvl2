@@ -103,6 +103,10 @@ nav a:hover {
   top: 25px;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -335,6 +339,14 @@ nav a:hover {
 
 .gap-50 {
   gap: 50px;
+}
+
+.ai-normal {
+  align-items: normal;
+}
+
+.ls-minus-01 {
+  letter-spacing: -0.1px;
 }
 
 .container {

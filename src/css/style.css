@@ -107,6 +107,10 @@ nav a:hover {
   top: 25px;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -339,6 +343,14 @@ nav a:hover {
 
 .gap-50 {
   gap: 50px;
+}
+
+.ai-normal {
+  align-items: normal;
+}
+
+.ls-minus-01 {
+  letter-spacing: -0.1px;
 }
 
 .container {
@@ -740,6 +752,23 @@ nav a:hover {
 @media (min-width: 1240px) {
   .popular-track {
     width: calc(50% - 50px);
+  }
+}
+.discography-item {
+  width: 137px;
+}
+
+.disc-img {
+  width: 137px;
+}
+
+.disc-year {
+  font-size: var(--font-size-1);
+}
+
+@media (min-width: 1240px) {
+  .discography-item {
+    width: 250px;
   }
 }
 

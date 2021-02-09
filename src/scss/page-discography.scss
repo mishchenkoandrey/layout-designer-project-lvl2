@@ -1,0 +1,17 @@
+.discography-item {
+  width: 137px;
+}
+
+.disc-img {
+  width: 137px;
+}
+
+.disc-year {
+  font-size: var(--font-size-1);
+}
+
+@media (min-width: 1240px) {
+  .discography-item {
+    width: 250px;
+  }
+}
