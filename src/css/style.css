@@ -8,6 +8,7 @@
   --orange: #f89202;
   --purple: #5328a1;
   --red: #95390c;
+  --white: #fff;
   --font-xs: 11px;
   --font-small: 12.8px;
   --font-size-1: 16px;
@@ -94,7 +95,7 @@ nav a:hover {
 
 .nav-ul {
   margin: 0;
-  padding-inline-start: 0;
+  padding-left: 0;
   list-style-type: none;
 }
 
@@ -142,6 +143,10 @@ nav a:hover {
   margin-top: 42px;
 }
 
+.mr-15 {
+  margin-right: 15px;
+}
+
 .mr-16 {
   margin-right: 16px;
 }
@@ -164,6 +169,10 @@ nav a:hover {
 
 .mb-24 {
   margin-bottom: 24px;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
 }
 
 .mb-49 {
@@ -322,6 +331,10 @@ nav a:hover {
 
 .gap-24 {
   gap: 24px;
+}
+
+.gap-25-50 {
+  gap: 25px 50px;
 }
 
 .gap-50 {
@@ -710,6 +723,24 @@ nav a:hover {
 
 .btn-like {
   background-image: url("../images/heart.svg");
+}
+
+.popular-track {
+  font-size: var(--font-small);
+}
+
+.track-img {
+  width: 55px;
+}
+
+.track-length {
+  margin-left: auto;
+}
+
+@media (min-width: 1240px) {
+  .popular-track {
+    width: calc(50% - 50px);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

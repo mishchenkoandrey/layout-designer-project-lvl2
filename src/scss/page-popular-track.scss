@@ -1,0 +1,17 @@
+.popular-track {
+  font-size: var(--font-small);
+}
+
+.track-img {
+  width: 55px;
+}
+
+.track-length {
+  margin-left: auto;
+}
+
+@media (min-width: 1240px) {
+  .popular-track {
+    width: calc(50% - 50px);
+  }
+}
