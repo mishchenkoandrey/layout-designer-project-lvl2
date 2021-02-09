@@ -1,19 +1,15 @@
-.discography-item {
-  width: 137px;
-}
-
-.disc-img {
+.similar-item {
   width: 137px;
 
   color: var(--gray);
 }
 
-.disc-year {
+.similar-followers {
   font-size: var(--font-size-1);
 }
 
 @media (min-width: 1240px) {
-  .discography-item {
+  .similar-item {
     width: 250px;
   }
 }

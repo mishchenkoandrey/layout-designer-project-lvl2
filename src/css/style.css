@@ -745,6 +745,10 @@ nav a:hover {
   width: 55px;
 }
 
+.track-artist {
+  color: var(--gray);
+}
+
 .track-length {
   margin-left: auto;
 }
@@ -760,6 +764,7 @@ nav a:hover {
 
 .disc-img {
   width: 137px;
+  color: var(--gray);
 }
 
 .disc-year {
@@ -768,6 +773,20 @@ nav a:hover {
 
 @media (min-width: 1240px) {
   .discography-item {
+    width: 250px;
+  }
+}
+.similar-item {
+  width: 137px;
+  color: var(--gray);
+}
+
+.similar-followers {
+  font-size: var(--font-size-1);
+}
+
+@media (min-width: 1240px) {
+  .similar-item {
     width: 250px;
   }
 }
