@@ -8,15 +8,12 @@
 }
 
 .news-author {
-  display: flex;
   margin-bottom: 48px;
 
   font-size: var(--font-small);
 }
 
-.news-author-link {
-  display: inline-flex;
-  align-items: center;
+.news-author-name {
   margin-right: 16px;
 
   color: var(--orange);
@@ -24,20 +21,20 @@
 }
 
 @media (min-width: 1240px) {
+  .news {
+    width: calc(50% - 25px);
+  }
+
   .news-header {
     font-size: 30px;
   }
 
   .news-img {
-    float: left;
-    width: 575px;
-    margin-right: 50px;
+    margin-bottom: 0;
   }
 
   .news-item:nth-child(even) .news-img {
-    float: right;
-    margin-right: 0;
-    margin-left: 50px;
+    order: 2;
   }
 
   .news-text {

@@ -1,17 +1,21 @@
-.popular-track {
-  font-size: var(--font-small);
-}
-
 .track-img {
   width: 55px;
 }
 
+.track-title {
+  font-size: var(--font-small);
+  line-height: inherit;
+}
+
 .track-artist {
   color: var(--gray);
+  font-size: var(--font-small);
 }
 
 .track-length {
   margin-left: auto;
+
+  font-size: var(--font-small);
 }
 
 @media (min-width: 1240px) {

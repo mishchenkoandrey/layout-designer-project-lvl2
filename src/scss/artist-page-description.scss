@@ -5,9 +5,8 @@
 }
 
 .btn-icon {
-  display: block;
   min-width: 200px;
-  padding: 24px 5px 24px 67px;
+  padding-left: 31px;
 
   text-align: left;
 
@@ -16,10 +15,6 @@
   background-size: 20px;
 }
 
-.btn-play {
-  background-image: url('../images/play-button.svg');
-}
-
-.btn-like {
-  background-image: url('../images/heart.svg');
+.icon {
+  width: 20px;
 }

@@ -381,6 +381,7 @@ nav a:hover {
   border-radius: 5px;
 
   font-size: var(--font-size-1);
+  line-height: inherit;
 }
 
 .btn-small {
@@ -444,6 +445,10 @@ nav a:hover {
     align-items: center;
   }
 
+  .gap-0-50-xl {
+    gap: 0 50px;
+  }
+
   .gap-24-xl {
     gap: 24px;
   }
@@ -454,6 +459,10 @@ nav a:hover {
 
   .margin-0-xl {
     margin: 0;
+  }
+
+  .mt-minus-16-xl {
+    margin-top: -16px;
   }
 
   .mt-32-xl {
@@ -502,6 +511,18 @@ nav a:hover {
 
   .columns-4-xl {
     columns: 4;
+  }
+
+  .ai-normal-xl {
+    align-items: normal;
+  }
+
+  .right-xl {
+    float: right;
+  }
+
+  .width-50-percent-xl {
+    width: 50%;
   }
 
   .container {
