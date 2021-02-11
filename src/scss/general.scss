@@ -103,21 +103,6 @@ nav a:hover {
   top: 25px;
 }
 
-.block {
-  display: block;
-}
-
-.flex {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.inline-flex {
-  display: inline-flex;
-  align-items: center;
-}
-
 .width-100-percent {
   width: 100%;
 }
@@ -229,6 +214,10 @@ nav a:hover {
 
 .pr-10 {
   padding-right: 10px;
+}
+
+.pr-40 {
+  padding-right: 40px;
 }
 
 .pb-2 {
@@ -412,6 +401,25 @@ nav a:hover {
 
 .btn-red {
   background-color: var(--red);
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.inline-flex {
+  display: inline-flex;
+  align-items: center;
 }
 
 .clear::after {
