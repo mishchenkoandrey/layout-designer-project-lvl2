@@ -405,8 +405,8 @@ nav a:hover {
   display: block;
 }
 
-.inline-block {
-  display: inline-block;
+.table {
+  display: table;
 }
 
 .flex {
