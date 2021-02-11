@@ -359,6 +359,7 @@ nav a:hover {
 }
 
 .btn {
+  display: inline-block;
   padding-top: 21px;
   padding-bottom: 21px;
   border-radius: 5px;
@@ -492,10 +493,6 @@ nav a:hover {
 
   .pb-72-xl {
     padding-bottom: 72px;
-  }
-
-  .pb-200-xl {
-    padding-bottom: 200px;
   }
 
   .width-auto-xl {
@@ -682,7 +679,7 @@ nav a:hover {
 }
 
 .btn-icon {
-  min-width: 200px;
+  width: 200px;
   padding-left: 31px;
   text-align: left;
   background-repeat: no-repeat;
