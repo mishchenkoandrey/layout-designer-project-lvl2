@@ -402,6 +402,10 @@ nav a:hover {
   align-items: center;
 }
 
+.fd-column {
+  flex-direction: column;
+}
+
 .gap-16 {
   gap: 16px;
 }
@@ -420,6 +424,10 @@ nav a:hover {
 
 .ai-normal {
   align-items: normal;
+}
+
+.ai-start {
+  align-items: start;
 }
 
 .clear::after {
@@ -514,6 +522,10 @@ nav a:hover {
     width: auto;
   }
 
+  .fd-row-xl {
+    flex-direction: row;
+  }
+
   .nowrap-xl {
     flex-wrap: nowrap;
   }
@@ -524,6 +536,10 @@ nav a:hover {
 
   .ai-normal-xl {
     align-items: normal;
+  }
+
+  .ai-center-xl {
+    align-items: center;
   }
 
   .right-xl {
