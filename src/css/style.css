@@ -318,26 +318,6 @@ nav a:hover {
   font-size: var(--font-size-1);
 }
 
-.gap-16 {
-  gap: 16px;
-}
-
-.gap-24 {
-  gap: 24px;
-}
-
-.gap-25-50 {
-  gap: 25px 50px;
-}
-
-.gap-50 {
-  gap: 50px;
-}
-
-.ai-normal {
-  align-items: normal;
-}
-
 .ls-minus-01 {
   letter-spacing: -0.1px;
 }
@@ -418,6 +398,26 @@ nav a:hover {
 .inline-flex {
   display: inline-flex;
   align-items: center;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.gap-24 {
+  gap: 24px;
+}
+
+.gap-25-50 {
+  gap: 25px 50px;
+}
+
+.gap-50 {
+  gap: 50px;
+}
+
+.ai-normal {
+  align-items: normal;
 }
 
 .clear::after {
