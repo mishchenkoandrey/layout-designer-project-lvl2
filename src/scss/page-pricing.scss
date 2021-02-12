@@ -42,3 +42,9 @@
   color: var(--white);
   font-size: var(--font-small);
 }
+
+@media (min-width: 1240px) {
+  .pricing-item {
+    padding-top: 19px;
+  }
+}
