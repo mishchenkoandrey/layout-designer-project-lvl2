@@ -132,6 +132,10 @@ nav a:hover {
   margin-top: 42px;
 }
 
+.mt-200 {
+  margin-top: 200px;
+}
+
 .mr-15 {
   margin-right: 15px;
 }
@@ -158,6 +162,10 @@ nav a:hover {
 
 .mb-24 {
   margin-bottom: 24px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
 }
 
 .mb-48 {
@@ -615,8 +623,6 @@ nav a:hover {
 }
 
 .pricing-value {
-  margin-top: 199px;
-  margin-bottom: 30px;
   font-size: var(--font-size-7);
   line-height: 1em;
 }
