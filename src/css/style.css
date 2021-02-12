@@ -120,6 +120,10 @@ nav a:hover {
   margin-left: auto;
 }
 
+.mt-3 {
+  margin-top: 3px;
+}
+
 .mt-14 {
   margin-top: 14px;
 }
@@ -166,10 +170,6 @@ nav a:hover {
 
 .mb-24 {
   margin-bottom: 24px;
-}
-
-.mb-30 {
-  margin-bottom: 30px;
 }
 
 .mb-48 {
