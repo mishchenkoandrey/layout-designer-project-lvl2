@@ -132,6 +132,10 @@ nav a:hover {
   margin-top: 38px;
 }
 
+.mt-48 {
+  margin-top: 48px;
+}
+
 .mt-200 {
   margin-top: 200px;
 }
@@ -216,12 +220,12 @@ nav a:hover {
   padding-top: 100px;
 }
 
-.pt-225 {
-  padding-top: 225px;
+.pt-200 {
+  padding-top: 200px;
 }
 
-.pt-248 {
-  padding-top: 248px;
+.pt-225 {
+  padding-top: 225px;
 }
 
 .pr-10 {
@@ -509,10 +513,6 @@ nav a:hover {
 
   .ml-auto-xl {
     margin-left: auto;
-  }
-
-  .pt-200-xl {
-    padding-top: 200px;
   }
 
   .pt-250-xl {
