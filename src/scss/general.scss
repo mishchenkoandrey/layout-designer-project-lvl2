@@ -368,7 +368,7 @@ nav a:hover {
 .btn-small {
   display: inline-block;
   width: auto;
-  padding: 17px 30px;
+  padding: 16px 30px;
   border: 1px solid var(--dark-gray);
 
   color: var(--dark-gray);
@@ -376,11 +376,12 @@ nav a:hover {
 }
 
 .btn-orange {
-  padding: 19px 41px;
+  padding: 16px 41px;
   border: 0;
   border-radius: 2rem;
 
   font-size: var(--font-small);
+  line-height: 1.6;
   text-transform: none;
 
   background-color: var(--red);
