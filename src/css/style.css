@@ -690,6 +690,10 @@ nav a:hover {
   .news-text {
     margin-top: 29px;
   }
+
+  .news-item:nth-child(even) .news-text {
+    margin-bottom: 17px;
+  }
 }
 .footer-nav {
   margin-bottom: 30px;

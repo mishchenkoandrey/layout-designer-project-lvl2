@@ -40,4 +40,8 @@
   .news-text {
     margin-top: 29px;
   }
+
+  .news-item:nth-child(even) .news-text {
+    margin-bottom: 17px;
+  }
 }
