@@ -566,6 +566,10 @@ nav a:hover {
   .btn-icon {
     float: left;
   }
+
+  .fs-18-xl {
+    font-size: 18px;
+  }
 }
 .logo {
   width: 24px;
