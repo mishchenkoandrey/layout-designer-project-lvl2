@@ -774,6 +774,10 @@ nav a:hover {
   color: var(--gray);
 }
 
+.disc-title {
+  font-size: 18px;
+}
+
 .disc-year {
   font-size: var(--font-size-1);
 }
@@ -786,6 +790,10 @@ nav a:hover {
 .similar-item {
   width: 137px;
   color: var(--gray);
+}
+
+.similar-title {
+  font-size: 18px;
 }
 
 .similar-followers {
