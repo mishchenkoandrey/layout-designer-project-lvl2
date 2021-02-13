@@ -670,6 +670,10 @@ nav a:hover {
   text-transform: uppercase;
 }
 
+.news-item:nth-child(even) .news-text {
+  margin-bottom: 17px;
+}
+
 @media (min-width: 1240px) {
   .news {
     width: calc(50% - 25px);
@@ -689,10 +693,6 @@ nav a:hover {
 
   .news-text {
     margin-top: 29px;
-  }
-
-  .news-item:nth-child(even) .news-text {
-    margin-bottom: 17px;
   }
 }
 .footer-nav {
