@@ -397,6 +397,20 @@ nav a:hover {
   background-color: var(--red);
 }
 
+.btn-icon {
+  width: 200px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: left;
+  background-repeat: no-repeat;
+  background-position: 31px 50%;
+  background-size: 20px;
+}
+
+.icon {
+  width: 20px;
+}
+
 .block {
   display: block;
 }
@@ -726,19 +740,6 @@ nav a:hover {
   background-image: url("../images/Morten Harket.png");
   background-position: center;
   background-size: cover;
-}
-
-.btn-icon {
-  width: 200px;
-  padding-left: 31px;
-  text-align: left;
-  background-repeat: no-repeat;
-  background-position: 31px 50%;
-  background-size: 20px;
-}
-
-.icon {
-  width: 20px;
 }
 
 .track-img {
